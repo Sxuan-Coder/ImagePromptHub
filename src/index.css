@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Consistent selection color across the app. */
+  ::selection {
+    background-color: rgba(15, 23, 42, 0.12);
+  }
+
+  /* Refined focus ring for keyboard navigation. */
+  :focus-visible {
+    outline: 2px solid rgba(15, 23, 42, 0.55);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  /* Tabular figures for numeric badges. */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
