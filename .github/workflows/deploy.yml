@@ -57,11 +57,15 @@ jobs:
           PORT: ${{ secrets.DEPLOY_PORT }}
         run: |
           PORT="${PORT:-22}"
+          echo "=== secret values (length + hex, no plaintext) ==="
+          echo "HOST len=${#HOST}"
+          echo "USER len=${#USER} val=$DEPLOY_USER"
+          echo "PATH len=${#DEST_PATH}"
+          printf 'PATH hex: '; printf '%s' "$DEST_PATH" | od -c | head -3
+          printf 'USER hex: '; printf '%s' "$DEPLOY_USER" | od -c | head -2
           SSH="ssh -i ~/.ssh/id_ed25519 -p $PORT -o BatchMode=yes"
           echo "=== remote: whoami / pwd / ls dest ==="
-          $SSH "$DEPLOY_USER@$HOST" 'echo WHOAMI=$(whoami); echo PWD=$(pwd); echo "LS:"; ls -ld "'"$DEST_PATH"'"; echo "RSYNC_PATH:"; command -v rsync'
-          echo "=== remote: test rsync server-side invocation ==="
-          $SSH "$DEPLOY_USER@$HOST" 'rsync --version 2>&1 | head -2'
+          $SSH "$DEPLOY_USER@$HOST" 'echo WHOAMI=$(whoami); echo PWD=$(pwd); echo "LS /www/wwwroot:"; ls -ld /www/wwwroot/ 2>&1; echo "LS dest:"; ls -ld "/www/wwwroot/imagehub.sxuan.top" 2>&1'
 
       - name: Deploy via rsync
         env:
