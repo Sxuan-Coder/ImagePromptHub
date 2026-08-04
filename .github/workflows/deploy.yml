@@ -1,0 +1,59 @@
+name: Deploy
+
+# Build the static site and rsync it to the nginx server.
+# Triggered automatically after a successful "Fetch Prompts" run (data
+# changed → rebuild → redeploy), and also runnable on demand.
+on:
+  workflow_run:
+    workflows: ['Fetch Prompts']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # Only run when the upstream Fetch Prompts workflow actually succeeded.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # Prepare the SSH key from secrets so rsync can connect non-interactively.
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          # Trust the host to avoid the yes/no prompt on first connect.
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.DEPLOY_PORT || 22 }}" \
+            dist/ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/
+
+      - name: Summary
+        run: |
+          echo "### Deploy result" >> "$GITHUB_STEP_SUMMARY"
+          echo "✅ Built and synced to \`${{ secrets.DEPLOY_HOST }}${{ secrets.DEPLOY_PATH }}\`" >> "$GITHUB_STEP_SUMMARY"

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { Sparkles, Github } from 'lucide-react'
 
 export function Header() {
@@ -23,13 +23,36 @@ export function Header() {
         </Link>
 
         <nav className="flex items-center gap-1 text-sm font-medium text-ink-soft">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              [
+                'rounded-lg px-3 py-2 transition-colors hover:bg-mist hover:text-ink',
+                isActive ? 'text-ink' : '',
+              ].join(' ')
+            }
+          >
+            案例画廊
+          </NavLink>
+          <NavLink
+            to="/prompts"
+            className={({ isActive }) =>
+              [
+                'rounded-lg px-3 py-2 transition-colors hover:bg-mist hover:text-ink',
+                isActive ? 'text-ink' : '',
+              ].join(' ')
+            }
+          >
+            提示词库
+          </NavLink>
           <a
             href="https://github.com/freestylefly/awesome-gpt-image-2"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub 数据来源仓库"
             title="GitHub 数据来源仓库"
-            className="rounded-lg p-2 transition-colors hover:bg-mist hover:text-ink"
+            className="ml-1 rounded-lg p-2 transition-colors hover:bg-mist hover:text-ink"
           >
             <Github size={20} strokeWidth={2} />
           </a>

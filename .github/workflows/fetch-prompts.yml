@@ -1,0 +1,93 @@
+name: Fetch Prompts
+
+# Incrementally sync the multi-source prompt dataset into src/data/prompts.json
+# and commit new entries back to the repo. Runs on a schedule and on demand.
+#
+# Schedule: 01:00 UTC daily ≈ 09:00 Asia/Shanghai (UTC+8).
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch: # manual "Run workflow" button
+
+permissions:
+  contents: write # required for the auto-commit step
+
+concurrency:
+  group: fetch-prompts
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Persist the fetcher's ETag cache across runs so unchanged upstream
+      # sources are skipped via HTTP 304 (faster, fewer API hits).
+      - name: Restore source cache
+        uses: actions/cache@v4
+        with:
+          path: scripts/.cache/prompts
+          key: fetch-prompts-cache-${{ github.run_id }}
+          restore-keys: |
+            fetch-prompts-cache-
+
+      - name: Run fetch script
+        id: fetch
+        run: node scripts/fetch-prompts.mjs
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet src/data/prompts.json src/data/prompts-manifest.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes since last run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            # Capture a short summary for the commit message.
+            {
+              echo 'summary<<EOF'
+              git diff --stat src/data/prompts.json src/data/prompts-manifest.json
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updates
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/prompts.json src/data/prompts-manifest.json
+          # Read total count for an informative commit subject.
+          TOTAL=$(node -e "console.log(require('./src/data/prompts-manifest.json').total)")
+          git commit -m "chore(prompts): daily sync — ${TOTAL} prompts" \
+            -m "$(cat <<'MSG'
+Automated incremental update from the 5 upstream sources.
+${{ steps.diff.outputs.summary }}
+MSG
+)"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Fetch Prompts result" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.diff.outputs.changed }}" = "true" ]; then
+            echo "✅ Committed new prompts." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "➖ No new prompts since last run." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat src/data/prompts-manifest.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

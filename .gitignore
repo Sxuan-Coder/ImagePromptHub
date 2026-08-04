@@ -28,5 +28,5 @@ scripts/.cache
 # TypeScript incremental build cache
 *.tsbuildinfo
 
-# Editor / agent tooling metadata
+# Editor
 .zcode/
