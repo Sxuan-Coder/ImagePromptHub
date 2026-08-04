@@ -5,8 +5,11 @@ name: Fetch Prompts
 #
 # Schedule: 01:00 UTC daily ≈ 09:00 Asia/Shanghai (UTC+8).
 on:
+  # Every Monday 09:00 Asia/Shanghai (UTC 01:00 Monday).
+  # The upstream sources update rarely (months between changes), so weekly
+  # is plenty and keeps API/rate-limit pressure low.
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 1 * * 1'
   workflow_dispatch: # manual "Run workflow" button
 
 permissions:

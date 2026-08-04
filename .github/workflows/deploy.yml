@@ -1,12 +1,12 @@
 name: Deploy
 
 # Build the static site and rsync it to the nginx server.
-# Triggered automatically after a successful "Fetch Prompts" run (data
-# changed → rebuild → redeploy), and also runnable on demand.
 on:
-  # 1. push 到 main → 立即构建并部署（代码改动实时上线）
+  # 1. 推送版本 tag → 立即构建并部署（标记正式发布版本）
+  #    用法: git tag v1.1.0 && git push origin v1.1.0
   push:
-    branches: [main]
+    tags:
+      - 'v*'
   # 2. Fetch Prompts 成功后自动部署（数据更新触发）
   workflow_run:
     workflows: ['Fetch Prompts']
