@@ -1,6 +1,6 @@
 # ImagePromptHub · AI 图像提示词画廊
 
-一个展示 AI 生成图片及其原始提示词的 React 画廊网站，灵感来自 [一个同类图像提示词画廊网站](一个同类图像提示词画廊网站)。精选 **517 个** GPT Image 2 案例，每个都附带完整可复制的提示词。
+一个展示 AI 生成图片及其原始提示词的 React 画廊网站。精选 **517 个** GPT Image 2 案例，每个都附带完整可复制的提示词。
 
 ## ✨ 特性
 
@@ -57,11 +57,10 @@ ImagePromptHub/
 ├── index.html, vite.config.ts, tailwind.config.js, tsconfig.json
 ```
 
-## 📊 数据来源
+## 📊 数据源
 
-图片与提示词均来自开源仓库 [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)，图片通过 GitHub raw CDN 直接加载，无需下载。版权归原作者所有，本站仅作学习展示。
+- [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
 
-解析脚本会在首次运行时下载两份 Markdown（`gallery-part-1.md` / `gallery-part-2.md`）并缓存到 `scripts/.cache/`，之后从缓存读取。
 
 ## 📝 许可
 
