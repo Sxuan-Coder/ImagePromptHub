@@ -137,7 +137,9 @@ export function CaseDetailPage() {
             <PromptBlock prompt={c.prompt} />
           </div>
 
-          {/* Source link out */}
+          {/* Source link out — traces back to the freestylefly repo where the
+              case gallery data originates. Hardcoded because it points at the
+              specific upstream file, not this project's own pages. */}
           <a
             href={`https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-${
               c.id <= 165 ? 1 : 2
