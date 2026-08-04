@@ -1,0 +1,10 @@
+# Force LF line endings for files that are sensitive to them.
+# GitHub Actions workflow YAML is known to misbehave with CRLF on Windows,
+# and shell scripts (`.mjs` entry points run by node) are safer with LF too.
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.mjs   text eol=lf
+*.sh    text eol=lf
+
+# Let Git auto-normalize everything else per the platform default.
+*       text=auto

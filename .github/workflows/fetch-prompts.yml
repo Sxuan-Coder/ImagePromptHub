@@ -64,6 +64,8 @@ jobs:
 
       - name: Commit updates
         if: steps.diff.outputs.changed == 'true'
+        env:
+          SUMMARY: ${{ steps.diff.outputs.summary }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -71,11 +73,8 @@ jobs:
           # Read total count for an informative commit subject.
           TOTAL=$(node -e "console.log(require('./src/data/prompts-manifest.json').total)")
           git commit -m "chore(prompts): daily sync — ${TOTAL} prompts" \
-            -m "$(cat <<'MSG'
-Automated incremental update from the 5 upstream sources.
-${{ steps.diff.outputs.summary }}
-MSG
-)"
+            -m "Automated incremental update from the 5 upstream sources." \
+            -m "${SUMMARY}"
           git push
 
       - name: Summary
