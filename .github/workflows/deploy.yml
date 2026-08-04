@@ -49,6 +49,20 @@ jobs:
           # Trust the host to avoid the yes/no prompt on first connect.
           ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts
 
+      - name: Debug remote shell (diagnose rsync mkdir failure)
+        env:
+          HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEST_PATH: ${{ secrets.DEPLOY_PATH }}
+          PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          PORT="${PORT:-22}"
+          SSH="ssh -i ~/.ssh/id_ed25519 -p $PORT -o BatchMode=yes"
+          echo "=== remote: whoami / pwd / ls dest ==="
+          $SSH "$DEPLOY_USER@$HOST" 'echo WHOAMI=$(whoami); echo PWD=$(pwd); echo "LS:"; ls -ld "'"$DEST_PATH"'"; echo "RSYNC_PATH:"; command -v rsync'
+          echo "=== remote: test rsync server-side invocation ==="
+          $SSH "$DEPLOY_USER@$HOST" 'rsync --version 2>&1 | head -2'
+
       - name: Deploy via rsync
         env:
           HOST: ${{ secrets.DEPLOY_HOST }}
