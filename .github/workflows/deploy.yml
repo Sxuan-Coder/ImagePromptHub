@@ -57,10 +57,16 @@ jobs:
           PORT: ${{ secrets.DEPLOY_PORT }}
         run: |
           PORT="${PORT:-22}"
-          # Trim any trailing slash so rsync treats DEST_PATH as an existing dir.
           DEST_PATH="${DEST_PATH%/}"
           echo "Deploying to $DEPLOY_USER@$HOST:$PORT$DEST_PATH"
+          # --exclude preserves BaoTa/panel protection files:
+          #   .user.ini   PHP open_basedir guard (locked with chattr +i)
+          #   .well-known Let's Encrypt / ACME challenge dir
+          #   .htaccess   panel-managed rewrite rules
           rsync -avz --delete \
+            --exclude='.user.ini' \
+            --exclude='.well-known' \
+            --exclude='.htaccess' \
             -e "ssh -i ~/.ssh/id_ed25519 -p $PORT" \
             dist/ \
             "$DEPLOY_USER@$HOST:$DEST_PATH/"
