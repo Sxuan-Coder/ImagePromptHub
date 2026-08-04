@@ -23,8 +23,9 @@ concurrency:
 
 jobs:
   deploy:
-    # Only run when the upstream Fetch Prompts workflow actually succeeded.
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    # Run on: manual trigger, push to main, or a successful Fetch Prompts run.
+    # Skip only when triggered by a *failed* Fetch Prompts run.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
