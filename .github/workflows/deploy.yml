@@ -52,20 +52,23 @@ jobs:
       - name: Deploy via rsync
         env:
           HOST: ${{ secrets.DEPLOY_HOST }}
-          USER: ${{ secrets.DEPLOY_USER }}
-          PATH_: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEST_PATH: ${{ secrets.DEPLOY_PATH }}
           PORT: ${{ secrets.DEPLOY_PORT }}
         run: |
           PORT="${PORT:-22}"
+          # Trim any trailing slash so rsync treats DEST_PATH as an existing dir.
+          DEST_PATH="${DEST_PATH%/}"
+          echo "Deploying to $DEPLOY_USER@$HOST:$PORT$DEST_PATH"
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/id_ed25519 -p $PORT" \
             dist/ \
-            "$USER@$HOST:$PATH_/"
+            "$DEPLOY_USER@$HOST:$DEST_PATH/"
 
       - name: Summary
         env:
           HOST: ${{ secrets.DEPLOY_HOST }}
-          PATH_: ${{ secrets.DEPLOY_PATH }}
+          DEST_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
           echo "### Deploy result" >> "$GITHUB_STEP_SUMMARY"
-          echo "✅ Built and synced to \`$HOST$PATH_\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "✅ Built and synced to \`$HOST$DEST_PATH\`" >> "$GITHUB_STEP_SUMMARY"
