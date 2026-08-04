@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="image/banner.png" alt="ImagePromptHub Banner" width="100%" />
+  <img src="image/banner.webp" alt="ImagePromptHub Banner" width="100%" />
 </div>
 
 # ImagePromptHub · AI 图像提示词画廊
