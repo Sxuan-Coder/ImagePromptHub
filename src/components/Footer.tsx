@@ -40,12 +40,12 @@ export function Footer() {
             </a>
             <a
               className="inline-flex items-center gap-1 text-ink-soft transition-colors hover:text-ink"
-              href={SITE.upstreamRepo}
+              href={SITE.dataSource}
               target="_blank"
               rel="noreferrer"
             >
               <ExternalLink size={14} />
-              上游数据源
+              数据源
             </a>
             <a
               className="inline-flex items-center gap-1 text-ink-soft transition-colors hover:text-ink"

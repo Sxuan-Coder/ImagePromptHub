@@ -16,7 +16,6 @@ import {
   splitPrompt,
 } from '../lib/cases'
 import { getCategory } from '../lib/categories'
-import { SITE } from '../lib/site'
 import { useImageLoad } from '../hooks/useImageLoad'
 import { useCopy } from '../hooks/useCopy'
 import { PromptBlock } from '../components/PromptBlock'
@@ -138,9 +137,11 @@ export function CaseDetailPage() {
             <PromptBlock prompt={c.prompt} />
           </div>
 
-          {/* Source link out — traces back to the upstream freestylefly repo. */}
+          {/* Source link out — traces back to the freestylefly repo where the
+              case gallery data originates. Hardcoded because it points at the
+              specific upstream file, not this project's own pages. */}
           <a
-            href={`${SITE.upstreamRepo}/blob/main/docs/gallery-part-${
+            href={`https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-${
               c.id <= 165 ? 1 : 2
             }.md#case-${c.id}`}
             target="_blank"

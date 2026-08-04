@@ -5,6 +5,6 @@
 export const SITE = {
   /** This project's open-source repository. */
   repo: 'https://github.com/Sxuan-Coder/ImagePromptHub',
-  /** The original upstream data source (freestylefly case gallery). */
-  upstreamRepo: 'https://github.com/freestylefly/awesome-gpt-image-2',
+  /** Anchor into the repo README's "数据源" section. */
+  dataSource: 'https://github.com/Sxuan-Coder/ImagePromptHub/tree/main#-%E6%95%B0%E6%8D%AE%E6%BA%90',
 } as const
