@@ -39,21 +39,33 @@ jobs:
 
       # Prepare the SSH key from secrets so rsync can connect non-interactively.
       - name: Configure SSH
+        env:
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          HOST: ${{ secrets.DEPLOY_HOST }}
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           # Trust the host to avoid the yes/no prompt on first connect.
-          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts
 
       - name: Deploy via rsync
+        env:
+          HOST: ${{ secrets.DEPLOY_HOST }}
+          USER: ${{ secrets.DEPLOY_USER }}
+          PATH_: ${{ secrets.DEPLOY_PATH }}
+          PORT: ${{ secrets.DEPLOY_PORT }}
         run: |
+          PORT="${PORT:-22}"
           rsync -avz --delete \
-            -e "ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.DEPLOY_PORT || 22 }}" \
+            -e "ssh -i ~/.ssh/id_ed25519 -p $PORT" \
             dist/ \
-            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/
+            "$USER@$HOST:$PATH_/"
 
       - name: Summary
+        env:
+          HOST: ${{ secrets.DEPLOY_HOST }}
+          PATH_: ${{ secrets.DEPLOY_PATH }}
         run: |
           echo "### Deploy result" >> "$GITHUB_STEP_SUMMARY"
-          echo "✅ Built and synced to \`${{ secrets.DEPLOY_HOST }}${{ secrets.DEPLOY_PATH }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "✅ Built and synced to \`$HOST$PATH_\`" >> "$GITHUB_STEP_SUMMARY"
