@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "parse": "node scripts/parse-cases.mjs",
+    "fetch:prompts": "node scripts/fetch-prompts.mjs",
     "dev": "npm run parse && vite",
     "build": "npm run parse && tsc -b && vite build",
     "preview": "vite preview"
