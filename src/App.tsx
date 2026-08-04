@@ -4,6 +4,8 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { GalleryPage } from './pages/GalleryPage'
 import { CaseDetailPage } from './pages/CaseDetailPage'
+import { PromptsGalleryPage } from './pages/PromptsGalleryPage'
+import { PromptDetailPage } from './pages/PromptDetailPage'
 
 /** Reset scroll position on route change (except back/forward via the browser). */
 function ScrollToTop() {
@@ -23,6 +25,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<GalleryPage />} />
           <Route path="/case/:id" element={<CaseDetailPage />} />
+          <Route path="/prompts" element={<PromptsGalleryPage />} />
+          <Route path="/prompt/:id" element={<PromptDetailPage />} />
           <Route path="*" element={<GalleryPage />} />
         </Routes>
       </div>

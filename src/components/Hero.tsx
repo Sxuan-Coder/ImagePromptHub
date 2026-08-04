@@ -1,12 +1,15 @@
-import { Image as ImageIcon, Tag, FileText } from 'lucide-react'
+import { Image as ImageIcon, Tag, FileText, ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { getStats } from '../lib/cases'
+import { getPromptStats } from '../lib/prompts'
 
 export function Hero() {
   const stats = getStats()
+  const promptStats = getPromptStats()
 
   const metrics = [
-    { icon: ImageIcon, value: stats.total, label: '提示词案例' },
-    { icon: Tag, value: stats.categories, label: '内容分类' },
+    { icon: ImageIcon, value: stats.total, label: '案例画廊' },
+    { icon: Tag, value: promptStats.total, label: '多源提示词' },
     { icon: FileText, value: '100%', label: '原文收录' },
   ]
 
@@ -40,9 +43,29 @@ export function Hero() {
             提示词灵感库
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-ink-soft sm:text-lg">
-            精选 {stats.total} 个高质量 AI 生成案例，每个都附带原始提示词。
+            精选 {stats.total} 个高质量案例，外加 {promptStats.total} 条来自{' '}
+            {promptStats.sources} 个开源仓库的多源提示词。
             按风格、场景筛选，一键复制，打开即可投入你的创作工作流。
           </p>
+
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+            <Link
+              to="/prompts"
+              className="group inline-flex items-center gap-2 rounded-xl bg-ink px-5 py-2.5 text-sm font-semibold text-canvas shadow-card transition-all hover:bg-ink/90"
+            >
+              浏览多源提示词库
+              <ArrowRight
+                size={16}
+                className="transition-transform group-hover:translate-x-0.5"
+              />
+            </Link>
+            <a
+              href="#gallery"
+              className="inline-flex items-center gap-2 rounded-xl border border-line bg-canvas px-5 py-2.5 text-sm font-semibold text-ink-soft transition-colors hover:border-ink/30 hover:bg-mist hover:text-ink"
+            >
+              查看案例画廊
+            </a>
+          </div>
 
           <dl className="mx-auto mt-10 grid max-w-lg grid-cols-3 gap-4">
             {metrics.map((m) => (
