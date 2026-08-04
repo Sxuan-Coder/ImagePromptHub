@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="image/banner.png" alt="ImagePromptHub Banner" width="100%" />
+</div>
+
 # ImagePromptHub · AI 图像提示词画廊
 
 一个展示 AI 生成图片及其原始提示词的 React 画廊网站。精选 **517 个** GPT Image 2 案例，外加来自 5 大开源仓库的 **864 条**多源生图提示词，每个都附带完整可复制的提示词。
