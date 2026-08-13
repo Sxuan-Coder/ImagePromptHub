@@ -24,7 +24,7 @@ export function CaseDetailPage() {
   const { id } = useParams<{ id: string }>()
   const caseId = Number(id)
   const c = Number.isFinite(caseId) ? getCaseById(caseId) : undefined
-  const status = useImageLoad(c?.image ?? '')
+  const { status, src } = useImageLoad(c?.image ?? '')
   const { copied, copy } = useCopy()
 
   // Scroll to top on navigation between cases.
@@ -80,7 +80,7 @@ export function CaseDetailPage() {
               </div>
             ) : (
               <img
-                src={c.image}
+                src={src}
                 alt={c.title}
                 className={[
                   'mx-auto max-h-[70vh] w-full object-contain transition-opacity duration-500',

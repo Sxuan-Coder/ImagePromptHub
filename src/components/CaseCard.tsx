@@ -12,7 +12,7 @@ interface CaseCardProps {
 }
 
 function CaseCardImpl({ case: c }: CaseCardProps) {
-  const status = useImageLoad(c.image)
+  const { status, src } = useImageLoad(c.image)
   const { copied, copy } = useCopy()
   const cat = getCategory(c.category)
 
@@ -35,7 +35,7 @@ function CaseCardImpl({ case: c }: CaseCardProps) {
           </div>
         ) : (
           <img
-            src={c.image}
+            src={src}
             alt={c.title}
             loading="lazy"
             className={[

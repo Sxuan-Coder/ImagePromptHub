@@ -19,6 +19,7 @@ import { SOURCES } from '../lib/prompt-categories'
 import { useImageLoad } from '../hooks/useImageLoad'
 import { useCopy } from '../hooks/useCopy'
 import { PromptBlock } from '../components/PromptBlock'
+import { primaryImageSrc } from '../lib/images'
 
 export function PromptDetailPage() {
   const { id } = useParams<{ id: string }>()
@@ -30,7 +31,7 @@ export function PromptDetailPage() {
   // order stays stable.
   const imgs = p?.images && p.images.length ? p.images : p ? [p.image] : []
   const currentImg = imgs[activeImg] ?? p?.image ?? ''
-  const currentStatus = useImageLoad(currentImg)
+  const { status: currentStatus, src: currentSrc } = useImageLoad(currentImg)
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' })
@@ -85,7 +86,7 @@ export function PromptDetailPage() {
               </div>
             ) : (
               <img
-                src={currentImg}
+                src={currentSrc}
                 alt={p.title}
                 className={[
                   'mx-auto max-h-[70vh] w-full object-contain transition-opacity duration-500',
@@ -110,7 +111,7 @@ export function PromptDetailPage() {
                       : 'border-line opacity-60 hover:opacity-100',
                   ].join(' ')}
                 >
-                  <img src={img} alt={`图 ${i + 1}`} className="h-full w-full object-cover" loading="lazy" />
+                  <img src={primaryImageSrc(img)} alt={`图 ${i + 1}`} className="h-full w-full object-cover" loading="lazy" />
                 </button>
               ))}
             </div>

@@ -13,7 +13,7 @@ interface PromptCardProps {
 }
 
 function PromptCardImpl({ prompt: p }: PromptCardProps) {
-  const status = useImageLoad(p.image)
+  const { status, src: imgSrc } = useImageLoad(p.image)
   const { copied, copy } = useCopy()
   const cat = getCategory(p.category)
   const src = SOURCES[p.collection]
@@ -36,7 +36,7 @@ function PromptCardImpl({ prompt: p }: PromptCardProps) {
           </div>
         ) : (
           <img
-            src={p.image}
+            src={imgSrc}
             alt={p.title}
             loading="lazy"
             className={[
