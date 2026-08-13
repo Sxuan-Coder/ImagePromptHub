@@ -64,10 +64,10 @@ function PromptSectionView({
             {section.label}
           </span>
         </span>
-        <button
+          <button
           type="button"
           onClick={() => copy(section.text)}
-          className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-[11px] font-medium text-ink-muted opacity-0 transition-opacity hover:bg-ink/5 hover:text-ink group-hover:opacity-100"
+          className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-[11px] font-medium text-ink-muted transition-opacity hover:bg-ink/5 hover:text-ink sm:opacity-0 sm:group-hover:opacity-100"
         >
           {copied ? <Check size={12} /> : <Copy size={12} />}
           {copied ? '已复制' : '复制'}

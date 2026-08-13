@@ -97,7 +97,7 @@ export function PromptsGalleryPage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="搜索标题、提示词、作者或来源…"
-                className="w-full rounded-xl border border-line bg-mist py-2.5 pl-10 pr-9 text-sm text-ink placeholder:text-ink-muted/70 focus:border-ink/30 focus:bg-canvas focus:outline-none focus:ring-2 focus:ring-ink/5"
+                className="w-full rounded-xl border border-line bg-mist py-2.5 pl-10 pr-9 text-base text-ink placeholder:text-ink-muted/70 focus:border-ink/30 focus:bg-canvas focus:outline-none focus:ring-2 focus:ring-ink/5 sm:text-sm"
               />
               {query && (
                 <button
