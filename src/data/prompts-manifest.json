@@ -1,30 +1,30 @@
 {
-  "lastUpdated": "2026-10-05T06:45:42.833Z",
-  "total": 2094,
+  "lastUpdated": "2026-10-12T07:10:17.583Z",
+  "total": 2170,
   "sources": {
     "davidwu": {
       "count": 494,
       "added": 0,
-      "changed": false
+      "changed": true
     },
     "zerolu": {
       "count": 53,
       "added": 0,
-      "changed": false
+      "changed": true
     },
     "imgedify": {
       "count": 76,
       "added": 0,
-      "changed": false
+      "changed": true
     },
     "youmind-gpt-image-2": {
       "count": 126,
-      "added": 63,
+      "added": 52,
       "changed": true
     },
     "youmind-nano-banana": {
       "count": 127,
-      "added": 40,
+      "added": 24,
       "changed": true
     }
   }
