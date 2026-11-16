@@ -33311,5 +33311,374 @@
     "source": "https://x.com/JimmyCarsttle/status/2117044013627035776",
     "nativeCategory": "youmind",
     "fetchedAt": "2026-11-09T07:49:10.353Z"
+  },
+  {
+    "id": "pce5cd6eca1a4",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "1",
+    "title": "个人资料 / 头像 - GPT Image 2 多视角角色一致性提示词",
+    "image": "https://cms-assets.youmind.com/media/1794728417207_k35343_HXHxYSvXEAAMbgb.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794728417207_k35343_HXHxYSvXEAAMbgb.jpg",
+      "https://cms-assets.youmind.com/media/1794728417157_lzb5tg_HXHxYSuWkAAM_cW.jpg"
+    ],
+    "prompt": "请生成一张图片：照片级写实，竖版 2:3 比例，一位虚构的 {argument name=\"age\" default=\"20岁\"} 成年女性单人照，青春洋溢，像大二学生，不要显得成熟。图 1 为人脸参考：保持五官、肤色、发型和发色一致。图 2 为服装参考：完全按照图中所示穿着这套衣服，保持款式、颜色、材质和配饰一致。图 3 为人体模特的灰度深度图：仅作为身体姿势和拍摄角度的参考；它不是真人，不提供服装或面部细节。场景：{argument name=\"scene_description\" default=\"春日午后公园里绿树成荫的小径\"}，嫩绿的树叶，路边有长椅，柔和的自然光，iPhone 随手拍质感，真实的皮肤纹理，轻微的胶片颗粒感。单张图片，非拼图，无文字或水印，双手自然放松且五指完整，面部和四肢无变形。\n请再生成一张图片：参考上一张：人物、发型、服装、场景和光线完全一致，但将身体姿势和拍摄角度改为与这张深度图中的姿势匹配（深度图只是人体模型，不提供服装或面部信息）。竖版 2:3 单张图片，非拼图，无文字或水印，手指完整。",
+    "author": "Candy",
+    "source": "https://x.com/CandyTravelight/status/2121772672140886063",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p11f0992be869",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "2",
+    "title": "个人资料 / 头像 - 动漫少女鹿纹披风秋日穿搭",
+    "image": "https://cms-assets.youmind.com/media/1794641981290_969v2o_HXDOozUbIAAqjBz.jpg",
+    "prompt": "一幅全身动漫风格插画，描绘了一位开朗的年轻女子站在铺满黄色银杏落叶的小径上。她拥有一头飘逸的金色长发，扎成双马尾，还长着尖尖的精灵耳。透过红色圆框眼镜，可以看到她明亮的绿色双眼，正开心地张嘴笑着。她身穿一件独特的棕色连帽斗篷，上面布满白色斑点图案（形似鹿皮花纹），兜帽上带有动物耳朵装饰，颈部系着一个大大的粉色蝴蝶结。斗篷里面搭配着一条棕色格纹短裙。腿上穿着宽松的棕色及膝长靴，内搭白色罗纹袜。背景是蓝天下成排的明艳黄叶银杏树，几片落叶在空中轻盈飘舞。",
+    "author": "Toudaiji",
+    "source": "https://x.com/ISoBZrpOBM85706/status/2121422631304126591#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pfb3d7f4f12a1",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "3",
+    "title": "个人资料 / 头像 - 基于参考图生成的时尚小鸭肖像",
+    "image": "https://cms-assets.youmind.com/media/1794641973372_susyzt_HXBFcWTa8AA2xRS.jpg",
+    "prompt": "请根据附带的图片，创作一幅精美的小鸭子肖像，采用细节丰富、风格古灵精怪的 3D 画风。小鸭子自信地站在时尚的家居环境中，保持着与图片中相同的姿势，露出温柔的微笑。",
+    "author": "ゆきと",
+    "source": "https://x.com/bakupso2/status/2121271796511195595",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pa2dd6edf3a14",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "4",
+    "title": "个人资料 / 头像 - 穿奶油色开衫的动漫女孩",
+    "image": "https://cms-assets.youmind.com/media/1794383129955_wpchmy_HWxxiL0bMAEWH1M.jpg",
+    "prompt": "一幅高分辨率的动漫风格年轻女性肖像。她留着及肩的淡紫灰色微卷长发，左侧系着一只小巧的白色丝带。双眼大而灵动，呈现琥珀色至蓝色的渐变效果，面带温柔和煦的微笑。她的右手轻轻抬起靠近脸颊，指尖轻触发丝。身穿一件厚实的米白色绞花针织开衫，内搭鼠尾草绿色的小纽扣荷叶边衬衫，画面底部可见深藏青色百褶裙。锁骨处佩戴着一条细银项链，缀有星形吊坠。背景是柔焦处理的湛蓝天空，点缀着散落的圆形光斑，营造出阳光明媚的氛围。光线柔和自然，凸显出针织衣物的纹理质感与发丝的通透感。竖版构图，半身像。",
+    "author": "降月@十師団物語",
+    "source": "https://x.com/ten_division_kz/status/2120195378037633026#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p840b2f176c92",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "5",
+    "title": "个人资料 / 头像 - GPT Image 2 提示词：韩式卧室人像与粉色吊带背心",
+    "image": "https://cms-assets.youmind.com/media/1794383121603_ha6kvt_HWxol1dboAAW-qk.jpg",
+    "prompt": "[整体风格]\n1:1 正方形构图，单张独立图像，超写实韩式室内女性人像摄影，清冷温柔气质，低饱和奶油暖白色调，柔和自然光，细腻肤质，轻微自然柔焦，真实智能手机拍摄质感。\n[面部特征]\n一位 23-25 岁的东亚成年女性，面容精致，小巧鹅蛋脸，下颌线条柔和流畅，下巴圆润小巧，肌肤清透冷白，透着淡淡的蜜桃粉腮红。\n明亮清澈的深棕色杏仁眼，自然双眼皮，卧蚕细节清晰，睫毛纤长卷翘，浅粉棕色眼影，眼线纤细柔和、眼尾微微上扬。\n鼻梁纤细挺直，鼻头小巧自然，双唇饱满柔软，呈玫瑰豆沙粉色，带有自然水润的光泽感。\n双唇自然闭合，双眼直视镜头，神态安静温柔又略带清冷，保留真实的皮肤微纹理。\n[发型 - 核心]\n浓密顺滑的深黑茶色及腰长发，泛着自然的深巧克力棕光泽。\n头顶蓬松，采用慵懒半扎发造型，额头自然中分，垂落几缕细碎的八字刘海。\n两侧头发自然别在耳后，露出耳朵与珍珠耳坠，其余长发随意披散在肩头与胸前。\n长发整体顺滑，发尾带有些许自然微卷，保留真实的根根分明发丝，呈现自然蓬松感与少许凌乱碎发。\n[服装与配饰]\n身穿浅樱花粉色细吊带背心，面料为柔软密实的棉质，简约浅圆领设计。\n外搭一件奶油白宽松针织开衫，针织纹理柔软细密，前襟自然敞开，露出浅粉色吊带与自然清晰的锁骨线条。\n长袖微微盖住手腕，呈现真实的柔软衣物褶皱。\n佩戴小巧的白色水滴形珍珠耳环与极细银色锁骨链。\n[姿势动作]\n人物坐在床沿，上半身自然挺直，身体正面微侧向镜头。\n头部轻轻倾斜，下巴自然微收，眼神温柔地直视镜头。\n左手自然抬起，掌心轻贴脸颊，手指顺着下颌线柔和舒展，形成温柔的托腮姿势。\n另一只手抬至肩侧，轻轻拨弄垂落的长发，手指自然弯曲。\n双肩放松，体态慵懒自然，手部结构真实合理。\n[背景环境]\n简约温馨的现代奶油风卧室，人物身后是一张铺着纯白床品与柔软白枕的大床。\n背景为浅米色墙面与奶油色软包床头，房间干净整洁、氛围静谧，没有杂乱的装饰物。\n[镜头与光影]\n1:1 正方形画幅，等效 50mm 人像镜头，平视视角，胸部以上的近景半身特写，面部居中。\n柔和的冷白正面自然补光照亮面部、鼻梁、双颊与锁骨。\n肌肤呈现清透的冷白质感，双颊透出淡淡的蜜桃粉血色，双唇带有细腻的自然反光。\n深黑茶色长发泛着柔和的深棕色高光，背景保留微弱的暖白环境光。\n低饱和度的奶油白与浅粉色调，对比度柔和，真实的景深效果，带有轻微自然颗粒感，无过度磨皮或锐化。\n[反向提示词]\n动漫，插画，3D 渲染，CG 假脸，塑料感皮肤，过度磨皮，夸张大眼，下巴过尖，五官错位，双眼不对称，假发，头发打结，发丝僵硬，多余手指，手掌畸形，手腕扭曲，肩膀错位，身体比例失调，衣物穿模，严重过曝，强 HDR，过度锐化，明显 AI 感，文字，水印，LOGO，拼贴图。",
+    "author": "沧瑶",
+    "source": "https://x.com/CryY666666/status/2120184677873209619",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pb2d630427ad3",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "6",
+    "title": "个人资料 / 头像 - GPT Image 2 提示词：韩式夏日海滨人像，蓝色针织上衣",
+    "image": "https://cms-assets.youmind.com/media/1794383121496_rhihlh_HWxbiuKaMAAdoGj.jpg",
+    "prompt": "[整体风格]\n9:16 竖构图，单张独立图片，超写实韩系夏日海边成人女性写真摄影，清新温柔的初恋感，天蓝与奶白色调，明亮自然阳光，真实智能手机摄影质感，细腻自然的光影。\n[面部特征]\n一位 23-25 岁的漂亮东亚成年女性，精致小巧的鹅蛋脸，下颌线柔和流畅，下巴圆润小巧，清透冷白皮，泛着淡淡的蜜桃粉腮红。\n明亮清澈的深棕色杏眼，自然双眼皮，卧蚕细节清晰，睫毛纤长自然，浅粉棕色眼影，眼线柔和微挑。\n鼻梁纤细挺直，鼻头小巧，双唇饱满柔软，呈水润的玫瑰粉色。\n嘴角微微上扬，露出温柔自然的闭唇微笑，双眼直视镜头，保留真实的皮肤细微纹理。\n[发型 - 核心]\n极其浓密顺滑的深栗棕色及腰长发，头顶自然蓬松，自然偏分发型。\n额前散落几缕细碎的八字刘海，柔和修饰额头与脸颊。\n大量长发自然垂落于双肩与后背，长度延伸至腰部以下，整体为顺滑直发，发尾带有轻微的自然弧度。\n海风从左向右吹拂，使部分长发自然飘向右侧，形成明显的横向飞扬发丝。\n阳光照亮长发顶部与外侧，形成细腻的浅栗棕色高光，保留真实的根根分明发丝与自然的风吹动态。\n[服装与首饰]\n身穿浅天蓝色、淡冰蓝色的修身短款针织上衣。\n简约圆领、短袖设计，面料为柔软细密的罗纹针织，衣摆长度在腰线以上，隐约露出自然的腰部线条。\n下半身搭配纯白色高腰 A 字百褶长裙，面料柔软轻盈，裙摆自然散开，带有真实细腻的垂直褶皱。\n耳戴小巧的白色珍珠耳钉，手腕佩戴精致的银色细手链。\n[姿势]\n人物自然站立在海边木栈道上，身体与镜头呈约 60 度角。\n上半身自然挺直，腰部微微扭转，头部回转，形成温柔的侧身回眸姿势。\n靠近左侧的手自然抬起至胸前，手指轻触肩膀附近的衣物或头发。\n另一只手臂自然垂于体侧，手腕放松，手指自然舒展。\n头部微微倾斜，下巴自然微收，眼神温柔地直视镜头，面带淡淡微笑。\n浓密长发顺着背部自然垂落，部分发丝随海风飘向右侧。\n[背景环境]\n夏日晴朗的海边木栈道，浅棕灰色的木板向远处延伸。\n右侧是开阔的蔚蓝海面，泛着自然的小波纹与柔和的阳光倒影。\n极远处可见低矮的深绿色针叶林海岸线。\n天空是清透明亮的浅蓝色，点缀着几缕淡淡的白云。\n栈道边缘散落着几块灰白色的天然石头，呈现真实的海滨环境质感。\n背景干净开阔，无其他人物或复杂建筑。\n[镜头与光影]\n9:16 竖构图，等效 35-50mm 人像镜头，平视视角，人物位于画面中心偏左。\n中景回眸构图，头顶上方保留较多蓝天，画面向下延伸至大腿附近，完整展现长发、上衣与白裙。\n明亮的夏日自然光从左前方照射，照亮面部、肩膀与长发。\n肤色呈现自然清透的冷白皮，头发受光处带有细腻的浅棕色反光。\n浅蓝色针织上衣与纯白长裙保持干净柔和的色彩。\n背景的海面与树林保留真实自然的空间层次，中等景深，无夸张的背景虚化。\n整体为低饱和度的清新蓝白色调，对比度柔和，真实摄影曝光，带有轻微相机颗粒感，皮肤纹理细腻，避免过度磨皮与明显的 AI 生成感。\n[反向提示词]\n动漫，插画，3D 渲染，CG 假脸，塑料皮肤，过度磨皮，夸张网红脸，眼睛异常大，下巴过尖，五官错位，假发，头发打结毛躁，发丝僵硬，风向错误，多余手指，手掌畸形，肩膀错位，身体比例失调，衣服穿模，裙摆异常，栈道透视错误，海水不自然，严重过曝，强 HDR，过度锐化，明显 AI 感，文字，水印，LOGO，拼图。",
+    "author": "沧瑶",
+    "source": "https://x.com/CryY666666/status/2120170198342979652",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p24cbc07c4e37",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "7",
+    "title": "个人资料 / 头像 - 昭和复古人像",
+    "image": "https://cms-assets.youmind.com/media/1794383128937_2et5q9_HWwdeYJaMAAtMyY.jpg",
+    "prompt": "一幅充满怀旧气息的电影感人像：一位年轻的日本女子留着黑色长发与齐刘海，身穿米色针织毛衣和棕色格纹裙。她身体微微前倾，双手托腮，神态若有所思。背景是昭和时代的复古街景，画面中可见一块写着“たばこ”（烟草）的红色招牌，以及一块蓝白相间的“雪印牛乳”招牌。整幅画面色调温暖而略带褪色感，颗粒与划痕清晰可见，完美还原了老照片的独特质感。",
+    "author": "いがぐりメタボ",
+    "source": "https://x.com/Kmsbdd0GXBOcrXQ/status/2120101937886745027#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pb9001f5b5de9",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "21",
+    "title": "社交媒体帖子 - 真人照片与涂鸦互动提示词",
+    "image": "https://cms-assets.youmind.com/media/1794728420538_59xox2_HXImlQFbAAAbrEb.jpg",
+    "prompt": "以用户上传的人像照片作为唯一的人物参考，创作一张充满趣味与创意的混合媒介时尚摄影作品，将“真实摄影”与“2D 手绘涂鸦”巧妙结合。\n[人物还原度]\n精准保留上传照片中人物的五官特征、比例、脸型、发型、发色、肤色、年龄感及个人气质，确保生成角色与原图具有极高的身份一致性。优先保留原图中的服装款式、颜色及穿搭细节；切勿随意更改人物的外貌或穿衣风格。\n[创意互动]\n画面的核心在于真人与黑色手绘火柴人之间的趣味互动。\n人物位于画面中心偏右的位置，正自然且富有动感地朝右前方行走，身体微微前倾，一腿迈出、另一腿向后伸展。人物回头看向身后的手绘小人，展现出开怀大笑、俏皮惊讶或略带无奈等生动表情，营造出极具故事感的抓拍瞬间。\n画面左侧是一个用粗黑线条绘制的可爱简笔火柴人，圆脑袋、简单的五官、纤细的四肢，表情十分逗趣。\n火柴人正用力拽着真人的衣摆、袖口或包包，身体后仰、双腿弯曲，摆出拼命想拦住对方离开的滑稽姿势。请根据人物实际的服装和配饰，自动选择最自然的互动接触点。\n强调真实的互动效果：火柴人的手要准确抓住真实的衣物或配饰，拉扯处需呈现出面料自然的拉伸、变形、褶皱与紧绷感。2D 手绘线条在接触点要与真实摄影主体精准衔接，营造出一种画中角色真正参与到人物动作中的视觉错觉。\n[涂鸦风格]\n采用极简、可爱又幽默的黑色马克笔手绘涂鸦风格。线条带有手绘特有的轻微自然不规则感，粗细适中、呈现扁平化效果，不添加 3D 阴影、复杂纹理或写实材质。\n在人物与火柴人周围点缀几个手绘感叹号、汗滴、动态线、爱心或俏皮符号，以增强情绪互动感。涂鸦元素需自然融入构图，不可遮挡人物面部。\n[场景与构图]\n极简的浅灰/白色摄影棚，无缝纯色背景，地面带有柔和写实的接触阴影。\n采用 3:4 竖版全身构图。真人集中在画面右侧，手绘小人位于左侧，通过拉扯动作形成清晰的视觉连接。人物与小人均需完整入镜，双脚清晰可见，主体周围留有适当的留白，整体画面干净利落、简洁且富有设计感。\n[摄影与质感]\n专业商业时尚摄影风格，柔和均匀的影棚漫射光，真实自然的皮肤质感，清晰的发丝细节，逼真的衣物纤维与褶皱，动作自然生动，色彩明亮柔和。\n真人部分呈现高分辨率的超写实效果，而手绘部分则保持纯粹的 2D 黑色涂鸦质感，让两种视觉语言形成鲜明却又和谐的对比。\n整体氛围轻松、俏皮、可爱且幽默，具备创意社交媒体时尚大片的视觉吸引力。\n无文字、无水印、无复杂背景、无多余的卡通角色。",
+    "author": "鱼哥",
+    "source": "https://x.com/MrGafish/status/2121800940743520742",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pb7f307e9549b",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "22",
+    "title": "社交媒体帖子 - 雨中奢华街头时尚摄影",
+    "image": "https://cms-assets.youmind.com/media/1794728411261_9ez2vn_HXFqczJbAAA44b8.jpg",
+    "prompt": "生成一张超写实的奢华街头风格时尚大片，主角是一位 20 多岁的英俊青年男子。他留着自然打理的深色发型，下颌线硬朗分明，五官精致立体，皮肤纹理真实细腻，神情从容自信。\n姿势与构图：\n在雨天的繁华都市街道中央，他姿态自然地站立，单手将一把巨大的透明圆顶雨伞举过头顶。身体微微朝向镜头，头部则转向画面右侧，目光投向远方，神情沉静而若有所思。另一只手随意拎着一只线条利落的黑色皮质手提包。采用竖版全身时尚大片的构图方式，完整呈现他的全身，并保持与参考图一致的拍摄角度、人物位置与透视关系。\n服装与造型：\n内搭一件质感高级的奶油色高领针织毛衣，外穿一件奶油色与炭灰色拼接的短款飞行员夹克，夹克上饰有精致的黑色植物与复古花卉图案。这件夹克版型微廓，带有绗缝填充质感，立领设计，并点缀着低调的黑色细节。下身搭配一条优雅宽松的象牙白阔腿西装裤，垂坠感流畅，剪裁利落干净。脚踩一双低调奢华的鞋履，大部分被裤管遮挡，若隐若现。\n雨伞与配饰：\n一把巨大的透明雨伞，配有弧形黑色伞柄和纤细的黑色金属伞骨，清透的伞面上散落着逼真的雨滴与水珠。他在胸前高度自然地握着伞柄。另一只手随意垂下，拎着一只极简风格的黑色皮质手提包。\n环境与背景：\n细雨绵绵的欧式城市高端商业街。建筑立面典雅考究，沿街是宽大的玻璃橱窗，透出温暖的琥珀色室内灯光；湿润的路面倒映着四周的光影，背景中有几位撑着深色雨伞的行人。周围的人群需保持自然的虚化效果，并带有轻微的动态模糊，营造出电影般的流动感，同时确保男性主体绝对清晰锐利。\n摄影与光影：\n使用专业级 Canon EOS R5 相机搭配 85mm 人像镜头拍摄，浅景深效果。光线由自然的阴天漫射光与店铺橱窗的暖光交织而成，反射效果逼真，高光控制细腻，面料纹理清晰可见，雨滴质感真实，整体呈现电影级调色。这是一张顶级奢华时尚杂志大片，散发着低调内敛的“静奢风”美学，采用高级中性色调，具备极致的照片级写实效果。\n画幅比例：9:16 竖版人像。\n请保留参考图的整体构图、雨伞位置、全身取景范围、服装轮廓、雨天都市氛围、背景行人的动态以及优雅的大片质感。无文字，无 Logo，无水印。",
+    "author": "ORHAN",
+    "source": "https://x.com/OrhanGhazi65942/status/2121593952059134027",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p374565cad938",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "23",
+    "title": "社交媒体帖子 - 瓦迪拉姆沙漠旅行人像",
+    "image": "https://cms-assets.youmind.com/media/1794728411406_rfbezd_HXEpxgAb0AAYbUC.jpg",
+    "prompt": "一张惊艳的超写实全身旅行人像，一位美丽的年轻女子在日落时分伫立于约旦瓦迪拉姆（Wadi Rum）的金色沙漠中。她身穿时尚的米色宽松纽扣衬衫、白色修身背心与米色工装裤，脚踩干净的白色运动鞋，肩上斜挎着一只小巧的奶油色单肩包。一头深棕色秀发挽成随性优雅的发髻，几缕柔和的碎刘海轻拂脸庞。她一手轻抚发丝，另一手随意插在口袋里。背景中有一头骆驼静立，周围点缀着传统的贝都因装饰、散发暖光的提灯与波斯地毯，远处是气势磅礴的砂岩山脉。温暖的黄金时刻阳光，自然真实的皮肤纹理，逼真的面部细节，柔和的电影感光影，奢华旅行摄影，时尚杂志大片风格，85mm 镜头，浅景深，超精细画质，4K，自然色彩，9:16 竖版构图。无文字，无水印，无 logo。",
+    "author": "Rubi",
+    "source": "https://x.com/AIwithRubii/status/2121522846048678162",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p4c54ad74a520",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "24",
+    "title": "社交媒体帖子 - 女子洗车",
+    "image": "https://cms-assets.youmind.com/media/1794641974599_39xc4v_HXAN_P8awAAi-zm.jpg",
+    "prompt": "一张写实的高分辨率照片，画面中一位留着黑色短发的年轻女子正在车道上清洗一辆旧车。她身穿白色背心和棕色格纹裙，正弯腰用海绵擦洗车身侧面。场景设定在阳光明媚的户外，旁边放着一桶肥皂水。整幅画面带有复古美感，令人联想到日本昭和时代的风情。",
+    "author": "いがぐりメタボ",
+    "source": "https://x.com/Kmsbdd0GXBOcrXQ/status/2121210809158426716#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pd71d1e1b8930",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "25",
+    "title": "社交媒体帖子 - 复古照片：日本寺庙中的女性",
+    "image": "https://cms-assets.youmind.com/media/1794641974859_xkzbuu_HW_7OogaQAETPKI.jpg",
+    "prompt": "一张复古风格的照片，画面中一位年轻的东亚女性站在一座传统日本寺庙前。她留着深色头发，梳成两条辫子，身穿一件暗栗色的长袖及膝连衣裙，衣领和袖口带有花卉图案。她双手在身前捧着一个棕色小皮包。背景是一片碎石庭院，石阶通向带有红色点缀的木质寺庙建筑，四周绿树葱茏，左侧还有一株形似棕榈的植物。整张照片呈现出柔和的焦点、略微褪色的色调，以及昭和时代复古摄影特有的胶片颗粒感。",
+    "author": "いがぐりメタボ",
+    "source": "https://x.com/Kmsbdd0GXBOcrXQ/status/2121190184129876253#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p6d5b9cb88b26",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "26",
+    "title": "社交媒体帖子 - 霍比特人与巫师齐聚的奇幻沙漠咖啡馆",
+    "image": "https://cms-assets.youmind.com/media/1794555669323_my3wvu_HW69e_qbMAA8BIg.jpg",
+    "prompt": "星夜沙漠与神秘戒指\n银河倾泻于沙漠之上的那个夜晚，\n三位旅人来到了 Crash Cafe。\n一位身披灰袍的老巫师，\n还有两个年轻的霍比特人。\n他们似乎正踏上一段漫长的旅途，\n奔赴遥远的国度。\n旅人们喝着热咖啡稍作歇息，\n猫咪店长却似乎心事重重。\n年轻人的胸前，一条金链隐隐泛着微光，\n底下藏着一个神秘的秘密。\n即便是这些背负着世界命运的旅人，\n也唯有今夜，时光静好 ⭐\nGPT Image2，5k",
+    "author": "もしもし@Aiart",
+    "source": "https://x.com/moshimoshi_ai/status/2120840865270894624",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p40cf8a67c3c0",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "27",
+    "title": "社交媒体帖子 - 海浪裙装动漫少女",
+    "image": "https://cms-assets.youmind.com/media/1794383130353_h1giux_HWxEeNuboAEeThx.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794383130353_h1giux_HWxEeNuboAEeThx.jpg",
+      "https://cms-assets.youmind.com/media/1794383130135_b6omb3_HWxEf_QbQAE0ZOZ.jpg"
+    ],
+    "prompt": "成人动漫时尚模特，原创流体动力学高定设计，灵感源自荷兰，以纯白作为唯一保留的传承色调，搭配深邃海洋蓝、柔和海藻绿与内敛风化黄铜色，高级动漫主视觉图，优雅海岸风情",
+    "author": "のぞむ＊AIイラスト",
+    "source": "https://x.com/ArtistaNozomu/status/2120270295701524835#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pa71051d3ab78",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "28",
+    "title": "社交媒体帖子 - 水彩与彩铅儿童绘本插画模板",
+    "image": "https://cms-assets.youmind.com/media/1794383119909_gxdotb_HWxmaDbWYAAPGsH.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794383119909_gxdotb_HWxmaDbWYAAPGsH.jpg",
+      "https://cms-assets.youmind.com/media/1794383121564_zle6d4_HWxmaDhW0AAmBu8.jpg",
+      "https://cms-assets.youmind.com/media/1794383121387_shdfbc_HWxmaDkW4AAV7Dd.jpg",
+      "https://cms-assets.youmind.com/media/1794383120782_pjk1y7_HWxmaDcXcAA1C0X.jpg"
+    ],
+    "prompt": "手绘儿童绘本插画，传统媒介质感。底层由大面积的水彩与水粉色块构成，色块内可见不均匀的水痕、笔触走向与颜料沉淀；边缘带有水渍，色块之间半透明叠压。上层使用彩色铅笔勾勒线条与排线，线条颜色与填色一致（非墨线或深色轮廓），粗细不一、略带抖动感，许多形状不勾边，肌理以手绘的平行铅笔排线表现。画面扁平且富有装饰性，无焦点透视，空间纵深感仅通过色块的前后遮挡以及远景色调偏冷、偏暗来体现。无统一光源，无体积阴影；物体仅有极小的接触阴影，用彩铅排线绘制。背景点缀细碎的白色及浅色颗粒点。暗部使用靛蓝或深紫色，绝不使用纯黑。\n场景：{argument name=\"scene\" default=\"森林野餐\"}。构图：{argument name=\"composition\" default=\"中心对称\"}，元素分布疏密有致，物体大小错落，相互部分遮挡。\n装饰图案：{argument name=\"patterns\" default=\"蘑菇、树叶、浆果\"}。\n配色方案：{argument name=\"color_palette\" default=\"暖色调\"}。\n角色：体型都很小，约占画面高度的六分之一，身体为扁平剪影，无细节刻画（不画鼻子、嘴巴或爪子细节）；眼睛是白圈加一个黑点瞳孔，略大且微微倾斜。{argument name=\"character_action\" default=\"小兔子吃胡萝卜\"}。\n{argument name=\"optional_technique\" default=\"\"}\n不要矢量扁平风格，不要 3D 渲染，不要平滑的数字渐变，不要光泽高光，不要写实光影，不要均匀的纸张纹理滤镜，不要文字。",
+    "author": "大龙",
+    "source": "https://x.com/JackieLiu_13/status/2120182176390037876",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p936e2241ea3d",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "33",
+    "title": "信息图 / 教育视觉图 - GPT Image 2 极简美学提示词",
+    "image": "https://cms-assets.youmind.com/media/1794728411531_ddahuv_HXFjEOhbEAElf5o.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794728411531_ddahuv_HXFjEOhbEAElf5o.jpg",
+      "https://cms-assets.youmind.com/media/1794728410037_s0i9hm_HXFj6ztaAAA-zRt.jpg",
+      "https://cms-assets.youmind.com/media/1794728409925_poinav_HXFj9xMa8AAeW5T.jpg",
+      "https://cms-assets.youmind.com/media/1794728410781_yo1fp3_HXFj-ZEboAAtzw5.jpg",
+      "https://cms-assets.youmind.com/media/1794728410831_mt1hoa_HXFkEe-asAAh5ii.jpg"
+    ],
+    "prompt": "围绕任意主体对象，生成一张极具静谧感、大面积留白的封面风格图像：第一眼看到的是明亮开阔的留白与克制的排版秩序，第二眼才落入底部细密精致的图形。顶部放置一行极细、字距宽疏的信息文字；中央标题采用高挑纤细的衬线体或轻盈的手工排版字体，字距开阔、笔画浅淡、层级分明，让文字仿佛静静悬浮于空中，而非压在画面上。不要直接堆砌主体对象，而是将其转化为一种自下边缘生长出的象征性承载结构：以清晰的深色线描勾勒出有机的脉络，斜向贯穿留白区域，与低处的浅色叙事层、微小的比例标尺以及局部的建筑或器物细节相互配合，营造出静观的节奏感；图形密度集中在底部与一侧，边缘可做裁切处理，让留白去承载庄重、停顿与余韵。绘制质感介于东方水墨与木刻线描之间，线条带有手工毛边与轻微的套印偏差，浅色图层透明叠压，纸面细腻但保持洁净。色彩从主题本身的材质、情绪、季节与文化信号中提取；大面积高明度底色负责透气，少量低饱和中间色支撑叙事层，明确的深色承担线条骨架与文字信息，极少量的主题点缀色仅置于视觉停顿处；整体保持清、静、明、净，温和地拉开冷暖距离，质感切忌浑浊、烟熏或过度做旧。",
+    "author": "小小东",
+    "source": "https://x.com/xiaoxiaodong/status/2121587331371290946",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pb00f08b9c91f",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "34",
+    "title": "信息图 / 教育视觉图 - 拟人化狼角色参考表",
+    "image": "https://cms-assets.youmind.com/media/1794555677158_ss4euh_HW8KJkmXgAEc2t9.jpg",
+    "prompt": "目标：为拟人化狼角色创建一张专业的角色设定参考图。\n画布：横向构图，背景采用干净的米白色。\n布局：左侧区域展示角色的大幅动态姿势；中间区域呈现三个全身转面视图（正面、侧面和背面）；右侧区域纵向排列三张表情头像特写，下方为一排五个色卡，以及两张细节局部放大图（肉垫与毛发纹理）。\n主体细节：角色是一位肌肉发达的雌性拟人狼，灰色短毛，面部和腹部带有浅棕褐色斑纹，眼睛呈亮蓝色。她身穿米色短款背心、棕色工装裤并搭配多功能腰带，佩戴露指手套和厚重的作战靴。脖子上系着一条红色方巾。尾巴蓬松，尾尖为白色。\n视觉风格：现代 Furry 艺术风格，线条利落清晰，赛璐璐上色，辅以柔和的环境阴影。高分辨率数字插画。\n约束条件：确保所有视图中角色比例保持一致。不包含任何文字或标注。",
+    "author": "Syn 🇺🇸🧬",
+    "source": "https://x.com/Synolytic/status/2120925753806336249#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p91d2e092e5cd",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "35",
+    "title": "信息图 / 教育视觉图 - 极简白色家电海报提示词",
+    "image": "https://cms-assets.youmind.com/media/1794555670463_a61v67_HW7dZv2a8AAYf1_.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794555670463_a61v67_HW7dZv2a8AAYf1_.jpg",
+      "https://cms-assets.youmind.com/media/1794555669198_fjmpko_HW7daNTa8AAKnM3.jpg",
+      "https://cms-assets.youmind.com/media/1794555670628_nqp671_HW7darQawAAUIWf.jpg"
+    ],
+    "prompt": "围绕任意主体对象，生成极简信息视觉：以大面积高亮净底建立第一印象，仅保留微弱的纸感或柔雾浅肌理，让空气感与静谧成为主体的一部分。不要填满视觉重心；将主题内容拆分为清晰的上层信息与下层实体锚点：上半部以端正、纤细、书卷气的中文字体编排主标题、副信息与极小字注释，字距疏朗、行高克制，居中的主标题形成庄重的停顿，日期/备注/符号线条以精准的水平秩序辅助阅读；下半部放置由主题语义转化而来的简洁主形体，体量小巧、边缘干净、细节写实但不加修饰，如同落入留白中的安静物证。主体与文字之间保持宽阔的呼吸区，让留白承载高级感、距离感与仪式感，而非暗示内容缺失。色彩从主体的材质、情绪与文化语义中提取：背景占据最大面积并保持明亮清澈，主体色作为低饱和的温柔支撑，文字与结构线使用清晰而不沉重的深色信息层，点缀色仅在关键细节或视觉节点微量出现；整体维持清静、高亮、低噪、色阶干净、对比柔和，避免浑浊、做旧、烟熏与灰黄沉闷。最终效果应如一张经过精密设计的展览公告或产品纪念视觉，一眼看阅读顺序与留白，二眼看主体实体与微小信息，质感克制、明亮、自然、可信。\n——————\n制作一张白色小家电 30 周年展览海报，延续清爽留白的信息公告气质，以象牙白为底色、雾银灰文字与一处淡青色细节构成轻冷关系；主形体为一台白色厨房小家电静置于底部居中，上方标题放大居中并以日期横线作为视觉停顿，适用于品牌展场入口与社交媒体预览；比例竖版 3:4。",
+    "author": "小小东",
+    "source": "https://x.com/xiaoxiaodong/status/2120876175656710416",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pe93e31b9f596",
+    "collection": "youmind-gpt-image-2",
+    "sourceId": "49",
+    "title": "YouTube 缩略图 - 大都会警察重型机器人",
+    "image": "https://cms-assets.youmind.com/media/1794641980943_o7397p_HXBHV24aEAA2GFS.jpg",
+    "prompt": "一张照片级写实的全身照，画面中一台巨大的双足重型机器人伫立在工业机库的场地上。机器人由复杂的机械部件构成，分段的白色装甲板覆盖在深色金属关节和液压活塞之上。它的头部是一条水平传感器条，装有多个摄像头镜头，顶部配有两盏发光的红色警示灯。胸甲上可见白底黑字的“警視庁 MPD”字样。右侧肩甲上也标有“MPD”。机器人的双腿粗壮如柱，末端是宽大的履带式脚掌。前景左侧，一名身穿深蓝色制服、背部印有“警視庁 MPD”字样的警察双手叉腰站立，正抬头仰望这台机器。背景是一座灰色的大型工业建筑，敞开的库门上分别标着“01”和“02”，旁边立有一块带有金色徽章、写着“警視庁 MPD”的标牌。建筑入口附近还能看到几个戴安全帽的小小身影。画面光线为明亮的日光，天空湛蓝澄澈。",
+    "author": "カーブミラー",
+    "source": "https://x.com/kabumira862571/status/2121273873752866845#reversed-0",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pfd3e89ad1275",
+    "collection": "youmind-nano-banana",
+    "sourceId": "1",
+    "title": "个人资料 / 头像 - 保留面部特征的超写实冬季时尚人像",
+    "image": "https://cms-assets.youmind.com/media/1794637199468_f9prvu_HXAsAeGa8AAhek0.jpg",
+    "prompt": "请将上传的参考照片作为精确的面部与身份参照，为同一位女性创作一张惊艳且超写实的冬季时尚人像。\n身份保真是最高优先级：100% 保留她原本的面容、面部轮廓、眼睛、眉毛、鼻子、嘴唇、下颌线、肤色及所有自然特征，不得做任何改动。请勿对她进行美颜、重塑或换脸。\n服装：奢华的白色蓬松皮草外套、米白色针织高领毛衣、柔软的白色羊毛围巾，以及优雅的冬季手套。\n发型：自然垂落的深棕色秀发，发丝间点缀着几片精致的雪花。\n姿态：站在充满魔力的雪林中，轻握一小束白花，面带柔和自然的微笑直视镜头。\n背景：白雪覆盖的松树、轻柔飘落的雪花、梦幻般的冬日薄雾，以及远处隐约透出的温暖金色灯光。\n摄影风格：高端冬季时尚大片质感，专业单反拍摄，真实的皮肤纹理，自然柔光，清晰的面部细节，电影级景深，8K 照片级写实画质。\n构图：精美的半身人像，比例自然，面部完美对焦，呈现 Pinterest 上优雅高级的冬日美学风格。\n严格避免：改变面部身份、AI 换脸、假面感皮肤、浓妆艳抹、过度磨皮、CGI 塑料感、手部变形、文字及水印。",
+    "author": "Elvorya",
+    "source": "https://x.com/Elvorya/status/2121243826673349104",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p22a6d0d0d676",
+    "collection": "youmind-nano-banana",
+    "sourceId": "2",
+    "title": "个人资料 / 头像 - 超写实自拍人像，搭配服装参考",
+    "image": "https://cms-assets.youmind.com/media/1794637199557_wso39e_HXAEyG8bAAAcEj-.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794637199557_wso39e_HXAEyG8bAAAcEj-.jpg",
+      "https://cms-assets.youmind.com/media/1794637199375_h3afdx_HXAE72lbIAAUGQP.jpg",
+      "https://cms-assets.youmind.com/media/1794637199405_e4cvcg_HXAE98CbsAE0rmw.jpg"
+    ],
+    "prompt": "超写实自拍风格年轻女性肖像 [Face Reference]，妆容精致浓艳，睫毛纤长，双唇粉润亮泽。她身穿 [Outfit Reference]\n她神情柔和，直视镜头。身处一间奢华的现代高层公寓内，配有落地窗。身后是明亮的白昼滨水城市天际线，高楼林立、玻璃幕墙闪耀，还有游艇码头与湛蓝水面，天空澄澈，点缀着轻柔云朵。明亮的自然阳光洒满房间，浅色地板洁净清爽，背景中可见现代极简风格的家具。皮肤纹理高度细腻，衣物褶皱拉伸真实自然，焦点锐利，电影级光影效果，高分辨率摄影画质。",
+    "author": "Aiko💕",
+    "source": "https://x.com/LoveAiko2003/status/2121201759297339607",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pd7cc2a03d23f",
+    "collection": "youmind-nano-banana",
+    "sourceId": "21",
+    "title": "社交媒体帖子 - 脆弱白玫瑰编辑风肖像",
+    "image": "https://cms-assets.youmind.com/media/1794637207209_gj12ur_HXBZ6y8X0AAIDn7.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794637207209_gj12ur_HXBZ6y8X0AAIDn7.jpg",
+      "https://cms-assets.youmind.com/media/1794637206965_628bky_HXBZ6yiWEAAGglj.jpg",
+      "https://cms-assets.youmind.com/media/1794637206977_498w6f_HXBZ6zbXwAA7v9Y.jpg",
+      "https://cms-assets.youmind.com/media/1794637207870_h20e40_HXBZ60jXoAAKxUh.jpg"
+    ],
+    "prompt": "{\n  \"vibe_title_en\": \"Fragile White Roses Suspended Over The Endless Blue\",\n  \"master_prompt\": \"中画幅半身时尚人像，50mm 镜头。主角正探身倚靠在一座奢华至极的悬浮吊舱窗边，吊舱由柔软的白色绗缝皮革制成，高悬于无边无际的深蓝色海洋之上。吊舱外部被数百朵极具真实物理质感的厚重白玫瑰所吞没，呈现出高预算实体特效般的视觉冲击。人物身体呈 45 度角，构成经典的四分之三侧面半身构图，但头部却转向一侧，目光低垂望向海浪，定格在一个脆弱、毫无防备的瞬间，流露出原始而柔软的情绪。服装：挺括的白色建筑感剪裁西装外套，内搭黑色真丝紧身胸衣。发型：长发呈现雕塑般的湿发波浪卷，仿佛被海风瞬间冻结，倾泻于一侧肩头。妆容：水润玻璃肌，颧骨处泛着如泪痕般的光泽，唇部为柔和晕染的浆果色。光线：强烈的电影感海面阳光经白色反光板柔化后，将玫瑰错综复杂、边缘锐利的阴影投射在皮革与肌肤上。使用 Hasselblad H6D 拍摄，Kodak Portra 160 胶片质感。超写实微观细节：玫瑰花瓣上真实的露珠、绗缝皮革上清晰可见的缝线、超高纹理的皮肤毛孔以及自然的织物纹理。超现实但严格遵循物理规律的摄影作品。禁止出现霓虹灯效果。\",\n  \"meta\": {\n    \"intent\": \"创作一幅超现实却又极致写实的时尚大片人像，将高级时装的荒诞感与人类深层、原始的脆弱感完美融合。\",\n    \"priorities\": \"不可能元素的摄影级真实感、错综复杂的材质纹理（皮革、玫瑰、肌肤）、通过低垂眼眸传递的情感共鸣，以及严格遵守 50mm 半身构图。\",\n    \"device_profile\": \"专业中画幅相机（Hasselblad H6D）\"\n  },\n  \"frame\": {\n    \"aspect\": \"3:4\",\n    \"composition\": \"半身中景（四分之三时尚构图），将面部锚定于繁复厚重的花卉结构与窗框之间。\",\n    \"layout\": \"主体位于吊舱窗户的正中央，下背景处的海平线呈现柔和的虚化效果。\",\n    \"camera_angle\": \"平视角度，捕捉主体低头避开镜头的视线。\",\n    \"tilt_roll_degrees\": \"0 度，保持绝对水平，以强化悬浮于海面之上的超现实感。\"\n  },\n  \"subject\": {\n    \"gender\": \"女性\",\n    \"identity\": \"主角\",\n    \"demographics\": \"超越年龄的空灵存在\",\n    \"face\": \"精致的骨骼结构，肌肉放松，在一次转瞬即逝的叹息中捕捉到最原始的人性之美。\",\n    \"hair\": \"长发呈现雕塑般的湿发波浪卷，倾泻于一侧肩头，仿佛被猛烈的海风瞬间冻结。\",\n    \"makeup\": \"水润的“玻璃肌”妆效，唇部为柔和晕染的碎浆果色渐变，颧骨高处泛着如泪痕般的光泽。\",\n    \"body\": \"身形纤细，姿态放松，身体微微向内蜷缩以传达脆弱感。\",\n    \"expression\": \"柔和、脆弱、易碎，目光低垂或偏向一侧，沉浸在深深的自省之中。\",\n    \"pose\": \"身体呈 45 度角，微微前倾靠在绗缝边缘，头部转向一侧，目光向下投向海洋。\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"建筑感剪裁西装外套\",\n        \"material\": \"厚重挺括的棉布\",\n        \"color\": \"纯白\",\n        \"fit\": \"立体剪裁，腰部收紧\"\n      },\n      {\n        \"item\": \"内搭紧身胸衣\",\n        \"material\": \"真丝\",\n        \"color\": \"漆黑\",\n        \"fit\": \"贴身剪裁\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"夸张宽檐帽\",\n        \"color\": \"漆黑\",\n        \"material\": \"硬挺毛毡\",\n        \"brand_style\": \"前卫巴黎高级定制\"\n      },\n      {\n        \"item\": \"半透明中长款手套\",\n        \"color\": \"黑色\",\n        \"material\": \"薄纱网眼\",\n        \"brand_style\": \"高级时尚大片风格\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"一座不可思议地悬浮于空中的吊舱，完全被柔软的白色绗缝皮革和成簇的巨大实体白玫瑰包裹，静静悬停在海面之上。\",\n    \"surfaces\": \"带有 Chanel 风格缝线的绗缝皮革、挂着水滴的天鹅绒般白玫瑰花瓣、深邃起伏的海水。\",\n    \"depth\": \"浅景深（f/2.8）；玫瑰与面部极其锐利清晰，而无垠的蔚蓝海洋则化作平滑细腻的焦外散景。\",\n    \"atmosphere\": \"清冽明亮的海洋空气，尽管场景极具戏剧性，却透着一种与世隔绝的诡异宁静。\",\n    \"lens_interaction\": \"明亮的白色皮革与玫瑰花瓣折射出轻微的光晕，与深邃的大海形成浓郁强烈的对比。\"\n  },\n  \"lighting\": {\n    \"key\": \"硬朗的定向自然阳光，模拟右上方高海拔的海面日照。\",\n    \"fill\": \"柔和明亮的白色反射补光，由周围的玫瑰与皮革反射而来，让面部沐浴在迷人且均匀的光线中。\",\n    \"rim\": \"明亮锐利的轮廓光，勾勒出头发湿发波浪的质感与黑色帽子的边缘。\",\n    \"shadows\": \"密集的玫瑰花簇在白色西装外套与皮革表面投下清晰、分明、超写实的阴影。\",\n    \"color_temperature\": \"中性日光（约 5500K），平衡了海洋冷峻的深蓝与布景纯净的白色。\",\n    \"sensor_flare\": \"无眩光，光学清晰度完美无瑕。\"\n  },\n  \"camera\": {\n    \"lens_type\": \"标准定焦镜头\",\n    \"focal_length\": \"50mm\",\n    \"aperture\": \"f/2.8\",\n    \"focus\": \"焦点极其锐利，精准落在主体低垂的睫毛与最近的一片沾满露水的玫瑰花瓣上。\",\n    \"sensor_format\": \"中画幅\",\n    \"perspective_distortion\": \"零畸变，高度压缩且能完美修饰人体比例。\"\n  },\n  \"post_processing\": {\n    \"color\": \"Kodak Portra 160 色彩配置；浓郁的海洋蓝、纯净无暇的白色以及极其自然的肤色。\",\n    \"tonality\": \"高对比度以区分纯白与深黑，但在高光过渡区域保留了极其丰富的细节。\",\n    \"texture\": \"超细腻的有机胶片颗粒，在毛孔、织物纹理和皮革缝线上呈现最大化的微反差。\",\n    \"digital_sharpening\": \"无，完全依赖中画幅镜头的光学锐度。\",\n    \"chromatic_aberration\": \"无色差。\"\n  },\n  \"negative_specifications\": [\n    \"无霓虹灯光效\",\n    \"无数码绘画感\",\n    \"无 CGI 或 3D 渲染感\",\n    \"无塑料感或过度磨皮的肌肤\",\n    \"无短发\",\n    \"无奇幻艺术风格\",\n    \"无假花或塑料质感的花朵\",\n    \"不与镜头产生眼神接触\",\n    \"无杂乱的背景\"\n  ]\n}",
+    "author": "timedoctor.eth",
+    "source": "https://x.com/timedoctor_nft/status/2121294296049389593",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p44543ea27a6a",
+    "collection": "youmind-nano-banana",
+    "sourceId": "22",
+    "title": "社交媒体帖子 - QT 服装试穿对比",
+    "image": "https://cms-assets.youmind.com/media/1794207468966_w89dsv_HWpdibVakAEKncp.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794207468966_w89dsv_HWpdibVakAEKncp.jpg",
+      "https://cms-assets.youmind.com/media/1794207468441_patgbf_HWpdvlLb0AAQYCm.jpg",
+      "https://cms-assets.youmind.com/media/1794207469095_mhmuq4_HWpd8TwaEAAIbFq.jpg"
+    ],
+    "prompt": "照片级真实电影感时尚大片人像，一位年轻女子 [Face Reference] 坐在光滑的深色影棚地板上，身体呈四分之三侧身角度，躯干微微转向镜头，一只手臂向后伸展、手掌撑地支撑身体重量，另一只手臂自然放松，双肩柔和倾斜，双腿舒展并优雅地交叉偏向一侧。头部微倾，下巴略收，目光平静自信地直视镜头，神情柔和从容。\n身穿参考图中的服装。[Outfit Reference]\n相机采用略微低角度拍摄，四分之三半身构图（从头部至大腿中部），竖版画面。氛围感十足的深海军蓝无缝影棚背景，带有午夜蓝渐变效果与体积光蓝色薄雾；冷调钴蓝与青色的轮廓光勾勒出她的肩膀、手臂和发丝；柔和的蓝色主光搭配轻微补光；抛光地板上泛着细腻倒影；地面散落着几片精致的蓝色花瓣，以及大小不一、色调各异的蓝色水晶作为极简道具；背景中点缀着淡淡的蓝色光斑虚化。皮肤纹理自然真实，毛孔清晰可见并带有柔和光泽，面料质感逼真，浅景深，电影感青蓝色调调色并与温暖的肤色形成微妙对比，高端杂志级精修且保留原始质感。使用 Sony A7R V 拍摄，85mm f/1.4 镜头，超精细细节，8k，RAW 格式照片。",
+    "author": "Aiko💕",
+    "source": "https://x.com/LoveAiko2003/status/2119611294345236615",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "pcef846bc0015",
+    "collection": "youmind-nano-banana",
+    "sourceId": "64",
+    "title": "漫画 / 故事板 - Raven 和 Tiffany 背景研究",
+    "image": "https://cms-assets.youmind.com/media/1794550851615_w1tinv_HW1ZQHBXsAA1CUS.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794550851615_w1tinv_HW1ZQHBXsAA1CUS.jpg",
+      "https://cms-assets.youmind.com/media/1794550852879_tqkwrj_HW1ZQG9WsAA91KD.jpg",
+      "https://cms-assets.youmind.com/media/1794550852827_n0ledv_HW1ZKj5WUAAMfaa.jpg"
+    ],
+    "prompt": "{argument name=\"character names\" default=\"Raven 和 Tiffany\"} 第二个故事的背景设定研究，故事发生在一个虚构的美国郊区，带有 {argument name=\"era\" default=\"80、90 年代\"} 的时代气息。场景力求真实写实。",
+    "author": "The Image Gardener",
+    "source": "https://x.com/ImageGardener/status/2120879285892178164",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p02107cb1a3f7",
+    "collection": "youmind-nano-banana",
+    "sourceId": "82",
+    "title": "产品营销 - 蛋白饮料创意产品摄影",
+    "image": "https://cms-assets.youmind.com/media/1794637199445_tibafg_HXCEBrHboAATxm4.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794637199445_tibafg_HXCEBrHboAATxm4.jpg",
+      "https://cms-assets.youmind.com/media/1794637197994_qbci5v_HXCEdt4asAAsJb0.jpg",
+      "https://cms-assets.youmind.com/media/1794637199497_hfqlzd_HXCEj6YbkAA-wSC.jpg",
+      "https://cms-assets.youmind.com/media/1794637198897_ucz8bl_HXCEovgaIAAI10Y.jpg"
+    ],
+    "prompt": "创作一张超写实的高端商业产品广告图，主体为一个深海军蓝哑光塑料蛋白饮料瓶。采用 3:4 竖版构图，细节极致细腻，呈现 8K 级画质。\n产品外观：\n蓝色瓶身线条流畅、微微倾斜，以四分之三侧面视角呈现。\n整个瓶身覆盖着逼真的冷凝水珠，细小的水滴在影棚灯光下折射出光泽。\n标签上需清晰显示：\"milk & yogurt\"、\"mock up\"、\"protein\" 以及 \"SEPARATED SHADOWS\"。\n动态液体效果：\n瓶身周围环绕着醇厚的乳白色牛奶与淡雅米色调交织而成的动感漩涡。打造充满张力的飞溅效果，液体自底部向上涌起，并沿着包装两侧蜿蜒卷曲。将飞溅的水珠定格在半空中，营造高速摄影的视觉冲击力。\n装饰元素：\n新鲜蓝莓（包含完整果实与切片），错落悬浮于不同景深处。\n精致的绿色薄荷叶，天然纹理清晰可见。\n悬浮的牛奶滴与微小液滴球体，为画面增添层次感与灵动感。\n场景与光影：\n背景采用高级渐变色调，由午夜蓝自然过渡至暖琥珀色。点缀柔和模糊的光斑粒子，营造电影般的氛围感。将瓶身置于哑光台面上方，台面留有少许汇聚的牛奶，并投射出自然分离的柔和阴影。\n最终品质：\n高端广告摄影质感，材质逼真，字体锐利，产品比例精准，高光富有电影感，阴影控制得当，液体物理细节丰富，画面纯净无瑕。避免出现不必要的视觉畸变、杂乱文字、噪点及失真的人工痕迹。",
+    "author": "$",
+    "source": "https://x.com/divahere_ngl/status/2121341367393870213",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
+  },
+  {
+    "id": "p0dab52cf6cb4",
+    "collection": "youmind-nano-banana",
+    "sourceId": "83",
+    "title": "产品营销 - 咖啡袋产品图对比",
+    "image": "https://cms-assets.youmind.com/media/1794207468914_s6iqvy_HWmJh2nbcAA9lZC.jpg",
+    "images": [
+      "https://cms-assets.youmind.com/media/1794207468914_s6iqvy_HWmJh2nbcAA9lZC.jpg",
+      "https://cms-assets.youmind.com/media/1794207468998_kvo9tc_HWmJjO4bIAAzb5z.jpg"
+    ],
+    "prompt": "温暖石质台面上的精品咖啡袋，柔和的清晨窗光，左上角留出干净的空白区域用于放置标题。",
+    "author": "Ashok | AI Design",
+    "source": "https://x.com/Ashok_ai1/status/2119376361412526391",
+    "nativeCategory": "youmind",
+    "fetchedAt": "2026-11-16T07:48:47.491Z"
   }
 ]
